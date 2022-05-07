@@ -1,0 +1,9 @@
+resultado;i<=3;j<=3;resultado[i][j];i++;j++
+[];true;-;-;0;-
+[[]];true;true;resultado[0][0]=0*0;0;0
+[[0]];true;true;resultado[0][1]=0*1;0;1
+[[0,0]];true;true;resultado[0][2]=0*2;0;2
+[[0,0,0]];true;true;resultado[0][3]=0*3;0;3
+[[0,0,0,0]];true;false;-;0;4
+[[0,0,0,0]];true;-;-;1;-
+[[0,0,0,0],[1]];true;true;resultado[1][0];2;-
